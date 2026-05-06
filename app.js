@@ -14,7 +14,7 @@ function criarImagem(item){
 
 
 async function getItens(){
-    const url = 'https://eldenring.fanapis.com/api/items?limit=30'
+    const url = 'https://eldenring.fanapis.com/api/items?limit=18'
     const response = await fetch(url)
     const data = await response.json()
     return data.data

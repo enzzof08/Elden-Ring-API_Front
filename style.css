@@ -6,27 +6,38 @@
 
 body{
     display: flex;
-    background-image: url(./E.webp);
+    background-image: url(./Wallpaper.png);
+    background-color: #164f99;
     background-size: cover;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
-    /* border-bottom: 1000px; */
+    min-height: 100vh;
+    gap: 60px;
+
+}
+
+header{
+    /* background-color: red; */
+    display: flex;
+    gap: 1px;
+    flex-direction: column;
+    margin-top: -120px;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo{
     width: 950px;
     height: 600px;
-    margin-top: -110px;
+    margin-top: -70px;
 }
 
 .botton{
     display: flex;
-    /* background-color: rgb(236, 240, 232); */
     width: 1350px;
     height: 90px;
     gap: 90px;
-    margin-top: -155px;
+    margin-top: -187px;
 }
 
 .bt{
@@ -47,8 +58,9 @@ body{
     width: 1300px;
     height: 700px; */
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 18px; /* controla espaço entre linhas e colunas */
+    margin-top: 1px;
 }
 
 .conteudo img{
