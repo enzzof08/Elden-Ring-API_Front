@@ -6,12 +6,13 @@
 
 body{
     display: flex;
-    background-image: url(./Wallpaper.png);
+    background-image: url(./E.webp);
     background-color: #164f99;
     background-size: cover;
     align-items: center;
+    /* justify-content: center; */
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 110vh;
     gap: 60px;
 
 }
@@ -33,11 +34,13 @@ header{
 }
 
 .botton{
+    /* background-color: red; */
     display: flex;
     width: 1350px;
     height: 90px;
     gap: 90px;
     margin-top: -187px;
+    justify-content: center;
 }
 
 .bt{
@@ -53,14 +56,24 @@ header{
 
 .conteudo{
     /* background-color: aqua; */
-    /* display: flex;
-    flex-wrap: wrap;
-    width: 1300px;
-    height: 700px; */
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 18px; /* controla espaço entre linhas e colunas */
+    gap: 18px; 
     margin-top: 1px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(5, 1, 20);
+    width: 780px;
+    height: 600px;
+    gap: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    overflow-wrap: break-word;
 }
 
 .conteudo img{
